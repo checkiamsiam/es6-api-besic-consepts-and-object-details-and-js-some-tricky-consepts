@@ -19,8 +19,8 @@ const phones2 = [
   {model: 'y11' , brand: 'vivo' , price:'12k'} ,
   {model: 's17' , brand: 'samsung' , price:'13k'} ,
   {model: 'f12' , brand: 'oppo' , price:'22k'} ,
-  {model: 'note7' , brand: 'MI' , price:'20k'}
+  {model: 'note7' , brand: 'vivo' , price:'20k'}
 ];
 const vivo2 = phones2.find(phone => phone.brand == 'vivo');
 
-// console.log(vivo2);
+console.log(vivo2);
